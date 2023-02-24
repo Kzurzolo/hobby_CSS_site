@@ -36,7 +36,7 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body >
+<body onLoad="MM_preloadImages('images/polaroid.jpg')" >
 	
 	<!--wrapper starts //-->
 <div id="wrapper">
@@ -46,7 +46,7 @@ function MM_swapImage() { //v3.0
 	<nav>
 	<ul>
 		
-<li><a href="index2.html">Home</a></li>
+<li><a href="index.html">Home</a></li>
 		<li><a href="work.html">Photography</a></li>
 		<li><a href="about.html">About</a></li>
 	</ul>
@@ -57,12 +57,19 @@ function MM_swapImage() { //v3.0
 	<!--aside ends //-->
 	<!--section starts //-->
 	<section>
-	  <p>Some things I like to photograph in my free time. Some other hobbies that inspire me to take phot
+		<h4> Welcome To My Hobby</h4>
+	  <p>On most of the pages listed above you can see methods and finished works of potography that I have done in the past.
 		</p>
-  </section>
+		<p> -I started taking photography classes my freshman year of highschool and since then it grew into something I love to do when I am not playing soccer</p>
+  <img src="images/Image-3.jpeg" width="300" height="" alt="soccer player"/>
+    <img src="images/Image.jpeg" width="300" height="" alt="black castle"/>
+ </section>
+	
+	
 	<!--section ends//-->
 	<!--foooter starts//-->
-	
+	<footer>
+  <a href="work.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','images/polaroid.jpg',1)"><img src="images/camerareg.jpg" alt="" width="500" height="500" id="Image2"></a> </footer>
 	<!--footer ends//-->
 </div>
 	<!-- wrapper ends //-->
