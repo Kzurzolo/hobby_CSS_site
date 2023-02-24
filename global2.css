@@ -18,11 +18,12 @@ nav {
 	padding-bottom: 5px;
 	color: #ffffff;
 	font-family: Ariel, Helvetica, Sans-Serif;
+	top:300px;
 }
 li{
 	float:left;
 	width:240px;
-	text-align:end;
+	text-align:center;
 }
 ul{
 	width:920px;
@@ -33,18 +34,18 @@ ul{
 	padding-bottom:15px;
 	height:10px;
 	position: relative;
-	top: 80px;
+	top: 60px;
 }
 aside{
 	font-family: Ariel, Helvetica, Sans-Serif;
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 40px;
 	color: #FFFFFF;
 	left: 500px;
 	padding-top: 10px;
 	padding-left: 10px;
 	position: relative;
-	height: 600px;
+	height: 60px;
 	top: 45px;
 	border-bottom: medium;
 	border-bottom-color: black
@@ -52,6 +53,7 @@ aside{
 footer{
 	position: relative;
 	left: -90px;
+	bottom: -400px;
 	
 }
 
@@ -59,25 +61,26 @@ section{
 	font-family: Ariel, Helvetica, Sans-Serif;
 	font-size: 14px;
 	line-height: 25px;
-	width: 300px;
+	width: 500px;
 	position: relative;
-	top: -600px;
-	color: #ffffff;
-	left: 200px;
+	top: 0px;
+	color: #9B84E2;
+	left: 0px;
 	height: 399px;
 }
 section2{
 	font-family: Ariel, Helvetica, Sans-Serif;
 	font-size: 14px;
 	line-height: 25px;
-	width: 17px;
+	width: 960px;
 	position: relative;
-	top: -600px;
-	color: #ffffff;
+	top: 0px;
+	color: #9B84E2;
 	left: 0px;
 	height: 0px;
 	float: center;
 }
+
 a:link{
     text-decoration:underline;
     color: #ffffff;
